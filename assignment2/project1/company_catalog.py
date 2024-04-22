@@ -1,5 +1,5 @@
 def Company_catalog():
-    print("Online Store \n----------------------------")
+    print("\nOnline Store \n----------------------------")
     print("""Product(s)              Price
     Item 1                  200.0
     Item 2                  400.0
@@ -9,7 +9,7 @@ def Company_catalog():
     Combo 3(Item 1 + 3)     720.0
     Combo 4(Item 1 + 2 + 3) 900.0""")
 
-    print("________________________\nFor delivery Contact: 0721823498")
+    print("________________________\nFor delivery Contact: 0721823498\n")
     choice = input("Select your gitf 1 - 3, c1 - c4: ")
     if choice == '1':
         price = 200

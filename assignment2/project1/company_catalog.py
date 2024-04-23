@@ -39,6 +39,6 @@ def Company_catalog():
         except:
             print("Invalid choice")
             continue
-    
+
 Company_catalog()
 

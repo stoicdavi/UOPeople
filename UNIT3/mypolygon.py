@@ -12,6 +12,7 @@ def Square(t, length):
         t.lt(90)
 
         t.fd(length)
-        t.lt(90)
+        
         turtle.mainloop()
-Square(bob, 100)
+length = int(input("Enter the length of the square You want to draw: "))
+Square(bob, length)

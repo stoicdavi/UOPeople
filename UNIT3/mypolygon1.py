@@ -1,10 +1,10 @@
 import turtle
 p = turtle.Turtle()
-def Star(t, length):
-    i = 0
-    while i < 8:
+def Star(t, n, length):
+    angle = 360/n
+    for i in range(n):
         t.fd(length)
-        t.lt(135)
-        i += 1
+        t.lt(angle)
+      
     turtle.mainloop()
-Star(p, 100)
+Star(p, 9, 90)

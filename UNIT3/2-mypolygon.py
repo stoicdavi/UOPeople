@@ -3,8 +3,8 @@ import turtle
 
 def polygon(ttl, length, n):
     for i in range(n):
-        p.fd(length)
-        p.lt(360/n)
+        ttl.fd(length)
+        ttl.lt(360/n)
 
     turtle.mainloop()
 

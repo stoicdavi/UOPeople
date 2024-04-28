@@ -11,5 +11,5 @@ def Star(t, n, length):
 
 p = turtle.Turtle()
 n = int(input("Enter the number of sides for your polygon: "))
-angle = int(input("Enter the angle for your polygon: "))
-Star(p, n, angle)
+length = int(input("Enter the length of the sides of your polygon: "))
+Star(p, n, length)

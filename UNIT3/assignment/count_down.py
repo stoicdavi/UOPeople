@@ -14,9 +14,11 @@ def countDown(n):
         countDown(n-1)
     else:
         print('Blast off!')
-
-number = int(input('Enter a number: '))
-if number <= 0:
+        
+number = int(input('Enter a number: ')) 
+if number < 0:
     countUp(number)
+elif number > 0:
+   countDown(number)
 else:
-    countDown(number)
+    print('Invalid input')

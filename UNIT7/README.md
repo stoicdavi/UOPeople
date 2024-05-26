@@ -9,4 +9,12 @@
             to assign value use ages['Dan'] = 10
         
 - Looping and dictionaries
-- Reverse lookuo
+- Reverse lookup
+
+### Tuple
+- a collection of immutable heterogeneous python objects
+- can be a mixture of different data types
+- Creating a tuple
+    names = ()
+    name = 'david',
+    make sure that you include a comma after the first element if you not using the parenthesis

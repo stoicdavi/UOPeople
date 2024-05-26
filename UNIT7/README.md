@@ -18,3 +18,6 @@
     names = ()
     name = 'david',
     make sure that you include a comma after the first element if you not using the parenthesis
+
+- Using zip function
+

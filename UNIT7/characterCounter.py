@@ -1,3 +1,4 @@
+import time
 def countCharacters(s):
     counts = dict() # Create an empty dictionary alt way: counts = {}
     for c in s: # For each character in the string
@@ -8,3 +9,7 @@ def countCharacters(s):
     return counts
 name = input('Enter a name: ')
 print(countCharacters(name))
+sleepTime = 3
+print('Sleeping for', sleepTime, 'seconds...')
+time.sleep(sleepTime)
+print('Done sleeping!')
